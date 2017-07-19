@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/briandanilo/dogapp/node_modules/react-native/Libraries/Text/RCTTextManager.m \
+  /Users/briandanilo/dogapp/node_modules/react-native/Libraries/Text/RCTTextManager.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAccessibilityManager.h \
+  /Users/briandanilo/dogapp/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/briandanilo/dogapp/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/briandanilo/dogapp/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/briandanilo/dogapp/node_modules/react-native/Libraries/Text/RCTTextView.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h
