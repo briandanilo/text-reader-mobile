@@ -32,7 +32,7 @@ class LoadEvents extends Component {
       this.props.dispatch(callApi())
     else
       return this.props.api.eventHistory.map((i)=>{
-        return <Text>{i.petName} {i.eventType} ({moment(i.eventTime).fromNow()})</Text>
+        return <Text>{i.petName} {i.eventType} ({moment(i.eventTime).fromNow()}) by {i.userName}</Text>
       })
   }
 

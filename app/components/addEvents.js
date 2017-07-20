@@ -26,7 +26,7 @@ class AddEvents extends Component {
   addEvent(eventType){
     let eventDetails = {
       petName: "Burr",
-      userName: "Brian",
+      userName: this.props.api.userEmail,
       eventType: eventType
     }
     this.props.dispatch(addEventApi(eventDetails));

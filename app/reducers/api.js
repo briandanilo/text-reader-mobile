@@ -1,4 +1,4 @@
-//import * as types from '../actions/actionTypes';
+import { AsyncStorage } from 'react-native'
 
 const initialState = {
   //line: ""
@@ -16,6 +16,23 @@ export default function api(state = initialState, action = {}) {
     case "ADD_EVENT_API_SUCCESS":
       return {
         ...state,
+      };
+    case "LOGOUT":
+      return {
+        ...state,
+        accessToken: "",
+        userEmail: "",
+      }
+    case "GOT_USER_DATA":
+      try {
+        AsyncStorage.setItem('@DogTrackToken:key', action.data.accessToken);
+      } catch (error) {
+        console.log("error w async storage: ",error)
+      }
+      return {
+        ...state,
+        accessToken: action.data.accessToken,
+        userEmail: action.data.userEmail
       };
     default:
       return state;
