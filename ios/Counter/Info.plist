@@ -40,6 +40,19 @@
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>CFBundleURLTypes</key>
+	<array>
+	    <dict>
+	        <key>CFBundleTypeRole</key>
+	        <string>None</string>
+	        <key>CFBundleURLName</key>
+	        <string>auth0</string>
+	        <key>CFBundleURLSchemes</key>
+	        <array>
+	            <string>org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)</string>
+	        </array>
+	    </dict>
+	</array>
 	<key>NSAppTransportSecurity</key>
 	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>

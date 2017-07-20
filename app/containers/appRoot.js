@@ -5,6 +5,7 @@ import {bindActionCreators} from 'redux';
 import Counter from '../components/counter';
 import LoadEvents from '../components/loadEvents';
 import AddEvents from '../components/addEvents';
+import AuthUser from '../components/authUser';
 import { connect } from 'react-redux';
 import container from './all'
 import {View,StyleSheet} from 'react-native'
@@ -27,8 +28,7 @@ class AppRoot extends Component {
   render() {
     return (
       <View style={styles.view}>
-        <LoadEvents/>
-        <AddEvents/>
+        <AuthUser/>
       </View>
     );
   }

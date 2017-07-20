@@ -8,4 +8,6 @@ dependencies: /Users/briandanilo/dogapp/ios/Counter/AppDelegate.m \
   /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLinkingManager.h \
+  /Users/briandanilo/dogapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h
