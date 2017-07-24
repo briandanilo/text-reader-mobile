@@ -7,6 +7,7 @@ import LoadEvents from '../components/loadEvents';
 import AddEvents from '../components/addEvents';
 import AuthUser from '../components/authUser';
 import Logout from '../components/logout';
+import LoginForm from '../components/loginForm';
 import { connect } from 'react-redux';
 import container from './all'
 import {View,StyleSheet,AsyncStorage} from 'react-native'
@@ -37,21 +38,26 @@ class AppRoot extends Component {
     // if their email is not in the state, they are not logged in
     // so show them the login / create account component
     // else show them the app
-    if (!this.props.api.userEmail){
-      return (
-        <View style={styles.view}>
-          <AuthUser/>
-        </View>
-      )
-    } else {
-      return (
-        <View style={styles.view}>
-          <Logout/>
-          <LoadEvents/>
-          <AddEvents/>
-        </View>
-      )
-    }
+    // if (!this.props.api.userEmail){
+    //   return (
+    //     <View style={styles.view}>
+    //       <AuthUser/>
+    //     </View>
+    //   )
+    // } else {
+    //   return (
+    //     <View style={styles.view}>
+    //       <Logout/>
+    //       <LoadEvents/>
+    //       <AddEvents/>
+    //     </View>
+    //   )
+    // }
+    return (
+      <View style={styles.view}>
+        <LoginForm/>
+      </View>
+    )
 
   }
 }
