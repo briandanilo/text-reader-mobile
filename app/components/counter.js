@@ -26,12 +26,12 @@ class Counter extends Component {
   }
 
   render() {
-    console.log("rendering.  this is the state: ", this.props)
+    console.log("renderinasfdasdfsdg.  this is the state: ", this.props)
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>{this.props.counter.count}</Text>
         <TouchableOpacity onPress={this.changeCount} style={styles.button}>
-          <Text>Increment Up</Text>
+          <Text>Increment up Brian</Text>
         </TouchableOpacity>
       </View>
     );

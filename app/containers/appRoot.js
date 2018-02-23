@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import Counter from '../components/counter';
+import TextReader from '../components/TextReader';
 import LoadEvents from '../components/loadEvents';
 import AddEvents from '../components/addEvents';
 import AuthUser from '../components/authUser';
@@ -32,7 +33,7 @@ class AppRoot extends Component {
     console.log("hi brian revised")
     return (
       <View style={styles.view}>
-        <Counter/>
+        <TextReader/>
       </View>
     )
 
