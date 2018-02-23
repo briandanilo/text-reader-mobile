@@ -61,35 +61,7 @@ class LoginForm extends Component {
   }
 
   onSubmit() {
-
     console.log("submitting! ", this.state)
-    /* check for empty value (validation) */
-    // let keys = Object.keys(this.state.data).map((val, key) => {
-    //   if ([null, undefined, 'null', 'undefined', ''].indexOf(this.state.data[val]) > -1) return val;
-    // });
-    //
-    // this.setState({messages: []});
-    //
-    // argument.map((val, key) => {
-    //   if (keys.indexOf(val.ref) > -1) this.setState({messages: this.state.messages.concat(val)});
-    // });
-    //
-    // if (this.state.messages.length > 0) return null;
-    //
-    // api.auth.register(this.state.data)                        // call api url for register
-    //   .then((response) => {
-    //     if (!response.ok) throw Error(response.statusText || response._bodyText);
-    //     return response.json();
-    //   })
-    //   .then((responseData) => {
-    //     ...
-    //   })
-    //   .catch((error) => {
-    //     ...
-    //   })
-    //   .done(() => {
-    //     ...
-    //   });
   }
 }
 

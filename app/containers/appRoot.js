@@ -26,36 +26,13 @@ class AppRoot extends Component {
 
   constructor(props) {
     super(props);
-
-    //first thing the app will do: check local storage for access token
-    // AsyncStorage.getItem('@DogTrackToken:key', (err, token) => {
-    //   console.log("async retrieval ",err,token)
-    //   this.props.dispatch(getUserInfo(token))
-    // })
   }
 
   render() {
-    // if their email is not in the state, they are not logged in
-    // so show them the login / create account component
-    // else show them the app
-    // if (!this.props.api.userEmail){
-    //   return (
-    //     <View style={styles.view}>
-    //       <AuthUser/>
-    //     </View>
-    //   )
-    // } else {
-    //   return (
-    //     <View style={styles.view}>
-    //       <Logout/>
-    //       <LoadEvents/>
-    //       <AddEvents/>
-    //     </View>
-    //   )
-    // }
+    console.log("hi brian revised")
     return (
       <View style={styles.view}>
-        <LoginForm/>
+        <Counter/>
       </View>
     )
 
