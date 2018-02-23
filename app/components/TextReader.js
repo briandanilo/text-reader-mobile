@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   }
 });
 
-var x = "Ever Since"
+var x = "Ever Mommy"
 
 class TextReader extends Component {
   constructor(props) {
@@ -29,7 +29,7 @@ class TextReader extends Component {
       Tts.speak(x);
     });
     return (
-        <Text>hello world</Text>
+        <Text>hello capri sun</Text>
     );
   }
 }
